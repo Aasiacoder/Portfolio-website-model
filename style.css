@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Young Serif", serif;
+}
+.container{
+    padding: 30px;
+}
+.section-one {
+    background-color: #FFE8E8;
+    color: rgb(109, 108, 108);
+    padding: 10px ;
+    text-align: center;
+}
+.section-one__contact {
+    background-color: #FF8E8E;
+    color: rgb(109, 108, 108);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:  inline-block;
+    margin-top: 10px;
+}
+.section-one__contact:hover {
+    background-color: #FF7878;
+}
+.section-one__name {
+    font-size: 40px;
+}
+.section-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section-two,.section-three,.section-four,.section-five {
+    margin-top: 20px;
+    color: rgb(109, 108, 108);
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc {
+    margin-top: 10px;
+}
+.section-five {
+    background-color: #FFE8E8;
+    color: rgb(105, 104, 104);
+    padding: 10px;
+    text-align: center;
+}
+.section-five__title a{
+    color: #FF8E8E;
+}
+.section-three li,.section-four li {
+    list-style: none;
+}
+.section-three {
+    background-color: #FFBBBB;
+    color: rgb(105, 104, 104);
+    padding: 10px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+.section-four {
+    height: 200px;
+    background-color: #FFBBBB;
+    color: rgb(105, 104, 104);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+.contact-form {
+    margin-top: 10px;
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit {
+   margin-top: 10px; 
+}
+.contact-form__input {
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__textarea {
+    padding: 10px;
+    border: none;
+    border: solid black 1px;
+}
+.contact-form__submit {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FF8E8E;
+    color: black;
+    border: none;
+}
+.contact-form__submit:hover {
+    background-color: #FF7878;
+}
+
+
+
+
